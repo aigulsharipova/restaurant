@@ -10,6 +10,8 @@
 <body>
   <div id="container">
     <h1>Let's spit our bill!</h1>
+
+    <form>
     <p>Bill</p>
     <span>$
       <input type="text" id="bill" placeholder="Bill">
@@ -17,6 +19,17 @@
 
     <p>Number of people</p>
     <input type="text" id="people" placeholder="How many people?">
+
+    <p>Did you like our service?</p>
+    <button id="tip">Ad a tip!</button>
+    <select id="tip">
+      <option disabled>Select an option</option>
+      <option>Wow! 30%</option>
+      <option>Good service! 20%</option>
+      <option>It was OK! 10% </option>
+      <option>No tip!</option>
+    </select>
+  </form>
 
   </div>
   <script src="./script.js"></script>
