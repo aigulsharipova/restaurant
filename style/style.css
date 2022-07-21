@@ -5,3 +5,13 @@ body {
   background-position: center;
   background-color:rgba(94, 97, 93, 0.9);
   }
+  #container {
+  background-color:rgba(94, 97, 93, 0.9);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 725px;
+  border-radius: 40px;
+  color: white;
+  }
