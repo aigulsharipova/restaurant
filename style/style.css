@@ -27,3 +27,7 @@ body {
     color: #f7dbf0;
     align-self: center;
   }
+  input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+  }
