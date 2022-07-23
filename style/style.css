@@ -22,3 +22,8 @@ body {
     margin: 20px;
     padding: 20px;
   }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f7dbf0;
+    align-self: center;
+  }
