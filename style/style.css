@@ -46,3 +46,7 @@ input {
   margin-top: 10px;
   font-family: 'Montserrat', sans-serif;
 }
+#tip {
+  font-family: 'Montserrat', sans-serif;
+  display: none;
+}
