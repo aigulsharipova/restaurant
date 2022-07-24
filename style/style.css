@@ -53,3 +53,11 @@ input {
 #amountPay {
   display: flex;
 }
+#billSplit, #dividedTip, #total {
+  font-family: 'Montserrat', sans-serif;
+  background-color:#78DEC7;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid;
+}
