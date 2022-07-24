@@ -50,3 +50,6 @@ input {
   font-family: 'Montserrat', sans-serif;
   display: none;
 }
+#amountPay {
+  display: flex;
+}
