@@ -12,4 +12,5 @@ if (bill === "" || people === "") {
   //1 How many will pay 1 people
 let amountPerPerson = bill/people;
 let amountTip = (bill * tip) / people;
+let totalSum = amountPerPerson + amountTip;
 }
