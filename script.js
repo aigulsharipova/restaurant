@@ -7,5 +7,5 @@ function calculateAmount(e) {
   const people = document.querySelector('#tip').value;
 if (bill === "" || people === "") {
   alert('Error')}
-
+let amountPerPerson = bill/people;
 }
