@@ -13,4 +13,8 @@ if (bill === "" || people === "") {
 let amountPerPerson = bill/people;
 let amountTip = (bill * tip) / people;
 let totalSum = amountPerPerson + amountTip;
+
+document.querySelector('#dividedBuill').textContent = amountPerPerson;
+document.querySelector('#ddividedTip').textContent = amountTip;
+document.querySelector('#billAndTip').textContent = totalSum ;
 }
