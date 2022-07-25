@@ -1,4 +1,4 @@
-const button = document.querySelector('#calcutale');
+const button = document.querySelector('#btn');
 button.addEventListener("click", calculateAmount);
 
 function calculateAmount(e) {
